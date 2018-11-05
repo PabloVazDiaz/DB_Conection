@@ -50,6 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="agendaDataSet.cs">
+      <DependentUpon>agendaDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="agendaDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
